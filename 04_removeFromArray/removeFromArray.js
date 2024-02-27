@@ -4,8 +4,9 @@ const removeFromArray = function(array, ...args) {
         if (args.includes(array[i])) {
             array.splice(i, 1);
         }
-            console.log("this returns: " + array);
+            
     }
+    console.log("this returns: " + array);
     return array;
 };
 
